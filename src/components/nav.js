@@ -7,13 +7,14 @@ width: 60vw;
 position: fixed;
 left: 0;
 top:0;
-background-color: rgba(0, 0, 0, 0.4);
+background-color: rgba(0, 0, 0, 0.8);
 > a{
     text-decoration: none;
+    color: #fff;
     position: absolute;
     top: 5vh;
     right: 5vw;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 }
 `
@@ -26,8 +27,9 @@ overflow: hidden;
 > a{
     padding: 2vw;
     text-decoration: none;
-    font-size: 1.3em;
-    color: red;
+    font-family:  'Arsenal', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
     display: block;
 
 }
@@ -44,7 +46,7 @@ const Nav = ({ onClick }) => {
 <NavDiv id="nav" >
 
  {/* Button to close the overlay naviation  */}
-<a href="#" className="closebtn" onClick={() => onClick()}>&times;</a>
+<a href="#" onClick={() => onClick()}>&times;</a>
 
 {/* overlay content */}
 <NavContent>
