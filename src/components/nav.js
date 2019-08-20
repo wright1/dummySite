@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const NavDiv = styled.div`
 height: 100vh;
-width: 0vw;
+width: 60vw;
 position: fixed;
 left: 0;
 top:0;
@@ -14,23 +14,6 @@ background-color: rgba(0, 0, 0, 0.4);
     top: 5vh;
     right: 5vw;
     font-size: 1.8em;
-}
-> div{
-    position: relative;
-    top: 25vh;
-    text-align: center;
-    overflow: hidden;
-     > a{
-          padding: 2vw;
-          text-decoration: none;
-          font-size: 1.3em;
-          color: red;
-          display: block;
-          
-
-}
-a:hover{
-    color: green;
 }
 }
 `
