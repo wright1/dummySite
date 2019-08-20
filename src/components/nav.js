@@ -3,11 +3,11 @@ import styled from "styled-components"
 
 const NavDiv = styled.div`
 height: 100vh;
-width: 0;
+width: 0vw;
 position: fixed;
 left: 0;
 top:0;
-background-color: rgba(0, 0, 0, 0.9)
+background-color: rgba(0, 0, 0, 0.4);
 > a{
     text-decoration: none;
     position: absolute;
@@ -15,13 +15,31 @@ background-color: rgba(0, 0, 0, 0.9)
     right: 5vw;
     font-size: 1.8em;
 }
+> div{
+    position: relative;
+    top: 25vh;
+    text-align: center;
+    overflow: hidden;
+     > a{
+          padding: 2vw;
+          text-decoration: none;
+          font-size: 1.3em;
+          color: red;
+          display: block;
+          
+
+}
+a:hover{
+    color: green;
+}
+}
 `
 
 const NavContent = styled.div`
 position: relative;
 top: 25vh;
-width: 100vw;
 text-align: center;
+overflow: hidden;
 > a{
     padding: 2vw;
     text-decoration: none;
