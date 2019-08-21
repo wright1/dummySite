@@ -3,11 +3,12 @@ import styled from "styled-components"
 
 const NavDiv = styled.div`
 height: 100vh;
-width: 60vw;
+width: 40vw;
 position: fixed;
 left: 0;
 top:0;
 background-color: rgba(0, 0, 0, 0.8);
+transition: 0.5s;
 > a{
     text-decoration: none;
     color: #fff;
@@ -39,16 +40,17 @@ a:hover{
 `
 
 
-const Nav = ({ onClick }) => {
+const Nav = React.forwardRef(({ onClick}, ref) => {
+
     return(
 
 
-<NavDiv id="nav" >
+<NavDiv ref={ ref } id="nav" >
 
  {/* Button to close the overlay naviation  */}
 <a href="#" onClick={() => onClick()}>&times;</a>
 
-{/* overlay content */}
+{/* overlay content */} 
 <NavContent>
     <a href="#">about</a>
     <a href="#">services</a>
@@ -61,6 +63,6 @@ const Nav = ({ onClick }) => {
 </NavDiv>
 
 
-    )}
+    )})
 
 export default Nav
