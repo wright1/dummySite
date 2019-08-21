@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const NavDiv = styled.div`
 height: 100vh;
-width: 40vw;
+width: 0vw;
 position: fixed;
 left: 0;
 top:0;
