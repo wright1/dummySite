@@ -6,9 +6,12 @@ Dummy Site is a place where I can try out new ideas or components. The site is l
 
 ### Navagation
 I wanted to try out a side navagation menu which slides in from the left. My result was this:
-![Alt text](https://ibb.co/0sfsPcv "note button in top left corner")
+
+
+![beforeNav](https://user-images.githubusercontent.com/20236080/63647250-3857d900-c716-11e9-996e-458dbb54ea4f.png)
 
 and this:
 
-![Alt text](https://ibb.co/nDBvP69 "opened side nav")
+![afterNav](https://user-images.githubusercontent.com/20236080/63647252-3db52380-c716-11e9-8756-2672b2c0b37e.png)
+
 
