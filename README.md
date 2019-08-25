@@ -14,4 +14,7 @@ and this:
 
 ![afterNav](https://user-images.githubusercontent.com/20236080/63647252-3db52380-c716-11e9-8756-2672b2c0b37e.png)
 
+so the side navagation is functional it works. when you press on the hamburger menu it slides from the left. However I think the hamburger menu looks clumsy I would I would like to use a sleeker method. I'll have a think on this!!!
+You can have a look [here](https://thisdummysite.netlify.com/)
+
 
