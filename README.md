@@ -16,6 +16,6 @@ and this:
 
 so the side navagation is functional it works. when you press on the hamburger menu it slides from the left. However I think the hamburger menu looks clumsy I would I would like to use a sleeker method. I'll have a think on this!!!
 You can have a look [here](https://thisdummysite.netlify.com/).
-I've decided to change the side navagation a little.
+I've decided to change the side navagation a little. Moving the button to the inside of the nav panel may be a solution.
 
 
